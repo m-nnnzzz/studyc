@@ -1,3 +1,7 @@
+# SELF-----------
+.DS_Store
+
+# BASE-----------
 # Prerequisites
 *.d
 
