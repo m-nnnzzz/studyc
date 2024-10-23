@@ -1,6 +1,6 @@
 # SELF-----------
 .DS_Store
-*[!.]*
+main
     # anything without extension
 
 
@@ -57,3 +57,4 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
