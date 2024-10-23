@@ -8,11 +8,12 @@ clang "c file" -o "output file"
 ./"compiled c file"
 
 # compile c an run compiled c in terminal
-clang "c file" -o "output file" && ./"compiled c file"
+clang ./source/main.c -o main && ./main
+gcc ./source/main.c -o main && ./main
 
 # terminal/cli cd commands
 .. 
-    parent directory
+    - parent directory
 
 # how to associate github repository to local
 git init 
@@ -28,3 +29,6 @@ git remote -v
 git status
 git add .
 git commit -m "your commit message here"
+
+# how to push git
+git push

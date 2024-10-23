@@ -1,5 +1,8 @@
 # SELF-----------
 .DS_Store
+*[!.]*
+    # anything without extension
+
 
 # BASE-----------
 # Prerequisites
