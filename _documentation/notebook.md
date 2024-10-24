@@ -1,8 +1,32 @@
-# how to clone repository
-git clone "repositoryName.git"
+# GIT---------------------------------------------------------------------------------------------
 
+# how to clone repository
+git clone "repositoryURL.git"
+
+# how to associate github repository to local
+git init 
+    - initialise git in the folder
+git clone "repositoryURL.git"
+    - clone repository files to local
+git remote add origin "repositoryURL.git"
+    - add remote access
+git remote -v
+    - verify remote access
+
+# git changes
+git status
+    - check changes
+git add .
+    - add all changes
+git commit -m "your commit message here"
+    - add commit message
+git push
+    - push changes to repository
+
+# COMPILE-----------------------------------------------------------------------------------------
 # compile c in terminal
 clang "c file" -o "output file"
+gcc "c file" -o "output file"
 
 # run compiled c in terminal
 ./"compiled c file"
@@ -15,20 +39,3 @@ gcc ./source/main.c -o main && ./main
 .. 
     - parent directory
 
-# how to associate github repository to local
-git init 
-    - initialise git in the folder
-git clone "repository url"
-    - clone repository files to local
-git remote add origin https://github.com/username/repo.git
-    - from local to repository (remoting)
-git remote -v
-    - verify if the remote has been added
-
-# how to commit and check changes
-git status
-git add .
-git commit -m "your commit message here"
-
-# how to push git
-git push
